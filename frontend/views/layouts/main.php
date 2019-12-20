@@ -16,8 +16,9 @@ AppAsset::register($this);
 <!DOCTYPE html>
 <!-- Last Published: Tue Oct 01 2019 14:09:51 GMT+0000 (UTC) --><html data-wf-page="5d874c138de89c973f9b909a" data-wf-site="5cf02e78a4a8373ef396411d">
 <head>
-    <meta charset="utf-8">
-    <title>Студия брендинга Leadcode - Брендинг товаров и услуг, разработка сайтов</title>
+<base href="/"/>
+    <meta charset="<?= Yii::$app->charset; ?>>">
+    <title><?= $this->title;?></title>
     <link rel="stylesheet" type="text/css" href="css/style.css?ver=1569939155">
     <meta content="Мы специализируемся на разработке сайтов, проектировании потребительских и корпоративных брендов." name="description">
     <meta content="Студия брендинга Leadcode - Брендинг товаров и услуг, разработка сайтов" property="og:title">
@@ -62,7 +63,7 @@ AppAsset::register($this);
             <div id="w-node-abbaea1c5554-1b08cefe" class="wrapper-brand"><a href="/" class="nav-brand w-nav-brand w--current"><img src="images/5d9250333506479da3e7c3e1_leadcode_weblogo_blk.svg" alt="" class="nav-logo"></a></div>
 
             <div id="w-node-abbaea1c5557-1b08cefe" class="wrapper-nav-links">
-                <div class="nav-links div-block-12"><a data-w-id="10062818-e198-0458-8d55-abbaea1c5559" href="/cases.html" class="nav-link w-inline-block"><div class="nav-text-wrap"><div class="link-text">проекты</div><div class="link-text-hov">проекты</div></div></a><a data-w-id="10062818-e198-0458-8d55-abbaea1c555f" href="/services.html" class="nav-link w-inline-block"><div class="nav-text-wrap"><div class="link-text">услуги</div><div class="link-text-hov">услуги</div></div></a><a data-w-id="10062818-e198-0458-8d55-abbaea1c5565" href="/about.html" class="nav-link w-inline-block"><div class="nav-text-wrap"><div class="link-text">студия</div><div class="link-text-hov">студия</div></div></a><a data-w-id="10062818-e198-0458-8d55-abbaea1c556b" href="/contacts.html" class="nav-link w-inline-block"><div class="nav-text-wrap"><div class="link-text">контакты</div><div class="link-text-hov">контакты</div></div></a></div>
+                <div class="nav-links div-block-12"><a data-w-id="10062818-e198-0458-8d55-abbaea1c5559" href="/cases.html" class="nav-link w-inline-block"><div class="nav-text-wrap"><div class="link-text">проекты</div><div class="link-text-hov">проекты</div></div></a><a data-w-id="10062818-e198-0458-8d55-abbaea1c555f" href="/services" class="nav-link w-inline-block"><div class="nav-text-wrap"><div class="link-text">услуги</div><div class="link-text-hov">услуги</div></div></a><a data-w-id="10062818-e198-0458-8d55-abbaea1c5565" href="/about.html" class="nav-link w-inline-block"><div class="nav-text-wrap"><div class="link-text">студия</div><div class="link-text-hov">студия</div></div></a><a data-w-id="10062818-e198-0458-8d55-abbaea1c556b" href="/contacts.html" class="nav-link w-inline-block"><div class="nav-text-wrap"><div class="link-text">контакты</div><div class="link-text-hov">контакты</div></div></a></div>
             </div>
         </div>
     </div>
@@ -89,7 +90,7 @@ AppAsset::register($this);
         <div data-w-id="7aace355-cae7-285b-50ce-603a4f773ac2" class="burger-text">меню</div>
     </div>
     <div class="lb">
-        <div class="menu-blk"><a data-w-id="7aace355-cae7-285b-50ce-603a4f773ac6" href="/cases.html" class="mobile-na-link-blk w-inline-block"><div class="mob-link-text">проекты</div><div class="nav-line mobile"></div></a><a data-w-id="7aace355-cae7-285b-50ce-603a4f773aca" href="/services.html" class="mobile-na-link-blk w-inline-block"><div class="mob-link-text">услуги</div><div class="nav-line mobile"></div></a><a data-w-id="7aace355-cae7-285b-50ce-603a4f773ace" href="/about.html" class="mobile-na-link-blk w-inline-block"><div class="mob-link-text">студия</div><div class="nav-line mobile"></div></a><a data-w-id="7aace355-cae7-285b-50ce-603a4f773ad2" href="/contacts.html" class="mobile-na-link-blk w-inline-block"><div class="mob-link-text">контакты</div><div class="nav-line mobile"></div></a></div>
+        <div class="menu-blk"><a data-w-id="7aace355-cae7-285b-50ce-603a4f773ac6" href="/cases.html" class="mobile-na-link-blk w-inline-block"><div class="mob-link-text">проекты</div><div class="nav-line mobile"></div></a><a data-w-id="7aace355-cae7-285b-50ce-603a4f773aca" href="/services" class="mobile-na-link-blk w-inline-block"><div class="mob-link-text">услуги</div><div class="nav-line mobile"></div></a><a data-w-id="7aace355-cae7-285b-50ce-603a4f773ace" href="/about.html" class="mobile-na-link-blk w-inline-block"><div class="mob-link-text">студия</div><div class="nav-line mobile"></div></a><a data-w-id="7aace355-cae7-285b-50ce-603a4f773ad2" href="/contacts.html" class="mobile-na-link-blk w-inline-block"><div class="mob-link-text">контакты</div><div class="nav-line mobile"></div></a></div>
         <div class="div-bg"></div>
         <div class="close-menu-btn">
             <div data-w-id="7aace355-cae7-285b-50ce-603a4f773ad8" class="close-menu-text">закрыть</div>

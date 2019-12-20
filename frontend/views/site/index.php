@@ -2,7 +2,7 @@
 
 /* @var $this yii\web\View */
 
-$this->title = 'My Yii Application';
+$this->title = 'Студия брендинга Leadcode - Брендинг товаров и услуг, разработка сайтов';
 ?>
 <div class="section-main-works">
     <div data-w-id="86679739-7a76-4bd8-a3f5-b7f111815220" class="hero-blk">
