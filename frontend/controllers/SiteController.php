@@ -93,5 +93,10 @@ class SiteController extends Controller
         return $this->render('avtowestway');
     }
 
+    public function actionBehappy()
+    {
+        return$this->render('behappy');
+    }
+
 
 }
