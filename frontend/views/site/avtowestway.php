@@ -1,5 +1,8 @@
 <?php
-$this->title = 'AvtoWestWay'
+$this->title = 'AvtoWestWay';
+
+use yii\helpers\Url;
+
 ?>
 
 <div class="section-cases">
@@ -30,7 +33,7 @@ $this->title = 'AvtoWestWay'
                 <div class="other-title">
                     <div class="other-text">посмотрите другие проекты</div>
                 </div>
-                <div class="w-layout-grid next-grid"><a id="w-node-0776740add12-bb9b911c" href="/seostimul.html" class="next-cases w-inline-block"><img src="images/5d53e006865d64a09afa9697_Seo20Stimul402x.png" width="575" srcset="images/5d53e006865d64a09afa9697_Seo20Stimul402x-p-800.png 800w, images/5d53e006865d64a09afa9697_Seo20Stimul402x-p-1080.png 1080w, images/5d53e006865d64a09afa9697_Seo20Stimul402x.png 1150w" sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, (max-width: 1306px) 88vw, 1150px" alt="" class="cases-cover-img"></a><a id="w-node-0776740add14-bb9b911c" href="/okonika.html" class="next-cases w-inline-block"><img src="images/5d53e006865d64d7e8fa9699_D09ED0BAD0BED0BDD0B8D0BAD0B0402x.png" width="575" srcset="images/5d53e006865d64d7e8fa9699_D09ED0BAD0BED0BDD0B8D0BAD0B0402x-p-500.png 500w, images/5d53e006865d64d7e8fa9699_D09ED0BAD0BED0BDD0B8D0BAD0B0402x-p-800.png 800w, images/5d53e006865d64d7e8fa9699_D09ED0BAD0BED0BDD0B8D0BAD0B0402x-p-1080.png 1080w, images/5d53e006865d64d7e8fa9699_D09ED0BAD0BED0BDD0B8D0BAD0B0402x.png 1150w" sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, (max-width: 1306px) 88vw, 1150px" alt="" class="cases-cover-img"></a></div>
+                <div class="w-layout-grid next-grid"><a id="w-node-0776740add12-bb9b911c" href="<?= Url::to(['site/seostimul'])?>" class="next-cases w-inline-block"><img src="images/5d53e006865d64a09afa9697_Seo20Stimul402x.png" width="575" srcset="images/5d53e006865d64a09afa9697_Seo20Stimul402x-p-800.png 800w, images/5d53e006865d64a09afa9697_Seo20Stimul402x-p-1080.png 1080w, images/5d53e006865d64a09afa9697_Seo20Stimul402x.png 1150w" sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, (max-width: 1306px) 88vw, 1150px" alt="" class="cases-cover-img"></a><a id="w-node-0776740add14-bb9b911c" href="<?= Url::to(['site/okonika'])?>" class="next-cases w-inline-block"><img src="images/5d53e006865d64d7e8fa9699_D09ED0BAD0BED0BDD0B8D0BAD0B0402x.png" width="575" srcset="images/5d53e006865d64d7e8fa9699_D09ED0BAD0BED0BDD0B8D0BAD0B0402x-p-500.png 500w, images/5d53e006865d64d7e8fa9699_D09ED0BAD0BED0BDD0B8D0BAD0B0402x-p-800.png 800w, images/5d53e006865d64d7e8fa9699_D09ED0BAD0BED0BDD0B8D0BAD0B0402x-p-1080.png 1080w, images/5d53e006865d64d7e8fa9699_D09ED0BAD0BED0BDD0B8D0BAD0B0402x.png 1150w" sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, (max-width: 1306px) 88vw, 1150px" alt="" class="cases-cover-img"></a></div>
             </div>
         </div>
     </div>

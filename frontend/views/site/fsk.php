@@ -1,7 +1,7 @@
 <?php
 $this->title = 'FSK';
 
-?>
+use yii\helpers\Url; ?>
 
 <div class="section-cases">
     <div class="top-blk"></div>
@@ -38,7 +38,7 @@ $this->title = 'FSK';
                 <div class="other-title">
                     <div class="other-text">посмотрите другие проекты</div>
                 </div>
-                <div class="w-layout-grid next-grid"><a id="w-node-c58114814a0d-019b9112" href="/buro-teti-moti.html" class="next-cases w-inline-block"><img src="images/5d53de2f2c90f65eed2035a1_D0B1D18ED180D0BE_D182D0B5D182D0B8_D0BCD0BED182D0B8402x.png" width="575" srcset="images/5d53de2f2c90f65eed2035a1_D0B1D18ED180D0BE_D182D0B5D182D0B8_D0BCD0BED182D0B8402x-p-500.png 500w, images/5d53de2f2c90f65eed2035a1_D0B1D18ED180D0BE_D182D0B5D182D0B8_D0BCD0BED182D0B8402x-p-800.png 800w, images/5d53de2f2c90f65eed2035a1_D0B1D18ED180D0BE_D182D0B5D182D0B8_D0BCD0BED182D0B8402x-p-1080.png 1080w, images/5d53de2f2c90f65eed2035a1_D0B1D18ED180D0BE_D182D0B5D182D0B8_D0BCD0BED182D0B8402x.png 1150w" sizes="100vw" alt="" class="cases-cover-img"></a><a id="w-node-c58114814a0f-019b9112" href="/be-happy.html" class="next-cases w-inline-block"><img src="images/5d53e0052c90f6c536203cbd_D091D0B820D0A5D18DD0BFD0BFD0B8402x.png" width="575" srcset="images/5d53e0052c90f6c536203cbd_D091D0B820D0A5D18DD0BFD0BFD0B8402x-p-500.png 500w, images/5d53e0052c90f6c536203cbd_D091D0B820D0A5D18DD0BFD0BFD0B8402x-p-800.png 800w, images/5d53e0052c90f6c536203cbd_D091D0B820D0A5D18DD0BFD0BFD0B8402x-p-1080.png 1080w, images/5d53e0052c90f6c536203cbd_D091D0B820D0A5D18DD0BFD0BFD0B8402x.png 1150w" sizes="100vw" alt="" class="cases-cover-img"></a></div>
+                <div class="w-layout-grid next-grid"><a id="w-node-c58114814a0d-019b9112" href="<?= Url::to(['site/burotetimoti'])?>" class="next-cases w-inline-block"><img src="images/5d53de2f2c90f65eed2035a1_D0B1D18ED180D0BE_D182D0B5D182D0B8_D0BCD0BED182D0B8402x.png" width="575" srcset="images/5d53de2f2c90f65eed2035a1_D0B1D18ED180D0BE_D182D0B5D182D0B8_D0BCD0BED182D0B8402x-p-500.png 500w, images/5d53de2f2c90f65eed2035a1_D0B1D18ED180D0BE_D182D0B5D182D0B8_D0BCD0BED182D0B8402x-p-800.png 800w, images/5d53de2f2c90f65eed2035a1_D0B1D18ED180D0BE_D182D0B5D182D0B8_D0BCD0BED182D0B8402x-p-1080.png 1080w, images/5d53de2f2c90f65eed2035a1_D0B1D18ED180D0BE_D182D0B5D182D0B8_D0BCD0BED182D0B8402x.png 1150w" sizes="100vw" alt="" class="cases-cover-img"></a><a id="w-node-c58114814a0f-019b9112" href="<?= Url::to(['site/behappy'])?>" class="next-cases w-inline-block"><img src="images/5d53e0052c90f6c536203cbd_D091D0B820D0A5D18DD0BFD0BFD0B8402x.png" width="575" srcset="images/5d53e0052c90f6c536203cbd_D091D0B820D0A5D18DD0BFD0BFD0B8402x-p-500.png 500w, images/5d53e0052c90f6c536203cbd_D091D0B820D0A5D18DD0BFD0BFD0B8402x-p-800.png 800w, images/5d53e0052c90f6c536203cbd_D091D0B820D0A5D18DD0BFD0BFD0B8402x-p-1080.png 1080w, images/5d53e0052c90f6c536203cbd_D091D0B820D0A5D18DD0BFD0BFD0B8402x.png 1150w" sizes="100vw" alt="" class="cases-cover-img"></a></div>
             </div>
         </div>
     </div>

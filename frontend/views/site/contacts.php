@@ -1,6 +1,7 @@
 <?php
 $this->title = 'Контакты';
-?>
+
+use yii\helpers\Url; ?>
 
 <div class="wrapper-contacts-page">
     <div class="top-blk"></div>
@@ -22,6 +23,6 @@ $this->title = 'Контакты';
         <div class="w-layout-grid bottom-grid">
             <div id="w-node-fc98cafeb6ba-1f9b9106" class="copywrite">
                 <div class="contacts-copywrite-text">© leadcode. все права защищены</div>
-            </div><a id="w-node-24bc738257df-1f9b9106" data-w-id="1e40e9a3-0223-cea0-d0c6-24bc738257df" href="/policy.html" target="_blank" class="policy w-inline-block"><div class="policy-div"><div class="policy-link-text">политика конфиденциальности</div><div data-w-id="e5976c45-aef0-5802-ca0c-7707ffdbae59" class="nav-line"></div></div></a></div>
+            </div><a id="w-node-24bc738257df-1f9b9106" data-w-id="1e40e9a3-0223-cea0-d0c6-24bc738257df" href="<?= Url::to(['site/policy'])?>" target="_blank" class="policy w-inline-block"><div class="policy-div"><div class="policy-link-text">политика конфиденциальности</div><div data-w-id="e5976c45-aef0-5802-ca0c-7707ffdbae59" class="nav-line"></div></div></a></div>
     </div>
 </div>

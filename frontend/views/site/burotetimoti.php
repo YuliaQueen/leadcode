@@ -1,6 +1,7 @@
 <?php
 $this->title = 'Бюро тети Моти';
-?>
+
+use yii\helpers\Url; ?>
 
 <div class="section-cases">
     <div class="top-blk"></div>
@@ -40,7 +41,7 @@ $this->title = 'Бюро тети Моти';
                 <div class="other-title">
                     <div class="other-text">посмотрите другие проекты</div>
                 </div>
-                <div class="w-layout-grid next-grid"><a id="w-node-757e2ff6ec93-489b9116" href="/be-happy.html" class="next-cases w-inline-block"><img src="images/5d53e0052c90f6c536203cbd_D091D0B820D0A5D18DD0BFD0BFD0B8402x.png" width="575" srcset="images/5d53e0052c90f6c536203cbd_D091D0B820D0A5D18DD0BFD0BFD0B8402x-p-500.png 500w, images/5d53e0052c90f6c536203cbd_D091D0B820D0A5D18DD0BFD0BFD0B8402x-p-800.png 800w, images/5d53e0052c90f6c536203cbd_D091D0B820D0A5D18DD0BFD0BFD0B8402x-p-1080.png 1080w, images/5d53e0052c90f6c536203cbd_D091D0B820D0A5D18DD0BFD0BFD0B8402x.png 1150w" sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, (max-width: 1306px) 88vw, 1150px" alt="" class="cases-cover-img"></a><a id="w-node-757e2ff6ec95-489b9116" href="/polimer.html" class="next-cases w-inline-block"><img src="images/5d53e00901f72a7b68ff1ad0_D09FD0BED0BBD0B8D0BCD0B5D180D18B402x.png" width="575" srcset="images/5d53e00901f72a7b68ff1ad0_D09FD0BED0BBD0B8D0BCD0B5D180D18B402x-p-500.png 500w, images/5d53e00901f72a7b68ff1ad0_D09FD0BED0BBD0B8D0BCD0B5D180D18B402x-p-800.png 800w, images/5d53e00901f72a7b68ff1ad0_D09FD0BED0BBD0B8D0BCD0B5D180D18B402x-p-1080.png 1080w, images/5d53e00901f72a7b68ff1ad0_D09FD0BED0BBD0B8D0BCD0B5D180D18B402x.png 1150w" sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, (max-width: 1306px) 88vw, 1150px" alt="" class="cases-cover-img"></a></div>
+                <div class="w-layout-grid next-grid"><a id="w-node-757e2ff6ec93-489b9116" href="<?= Url::to(['site/behappy'])?>" class="next-cases w-inline-block"><img src="images/5d53e0052c90f6c536203cbd_D091D0B820D0A5D18DD0BFD0BFD0B8402x.png" width="575" srcset="images/5d53e0052c90f6c536203cbd_D091D0B820D0A5D18DD0BFD0BFD0B8402x-p-500.png 500w, images/5d53e0052c90f6c536203cbd_D091D0B820D0A5D18DD0BFD0BFD0B8402x-p-800.png 800w, images/5d53e0052c90f6c536203cbd_D091D0B820D0A5D18DD0BFD0BFD0B8402x-p-1080.png 1080w, images/5d53e0052c90f6c536203cbd_D091D0B820D0A5D18DD0BFD0BFD0B8402x.png 1150w" sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, (max-width: 1306px) 88vw, 1150px" alt="" class="cases-cover-img"></a><a id="w-node-757e2ff6ec95-489b9116" href="<?= Url::to(['site/polimer'])?>" class="next-cases w-inline-block"><img src="images/5d53e00901f72a7b68ff1ad0_D09FD0BED0BBD0B8D0BCD0B5D180D18B402x.png" width="575" srcset="images/5d53e00901f72a7b68ff1ad0_D09FD0BED0BBD0B8D0BCD0B5D180D18B402x-p-500.png 500w, images/5d53e00901f72a7b68ff1ad0_D09FD0BED0BBD0B8D0BCD0B5D180D18B402x-p-800.png 800w, images/5d53e00901f72a7b68ff1ad0_D09FD0BED0BBD0B8D0BCD0B5D180D18B402x-p-1080.png 1080w, images/5d53e00901f72a7b68ff1ad0_D09FD0BED0BBD0B8D0BCD0B5D180D18B402x.png 1150w" sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, (max-width: 1306px) 88vw, 1150px" alt="" class="cases-cover-img"></a></div>
             </div>
         </div>
     </div>

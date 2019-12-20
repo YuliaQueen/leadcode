@@ -2,7 +2,7 @@
 
 $this->title = 'SV-Mebel';
 
-?>
+use yii\helpers\Url; ?>
 
 <div class="section-cases">
     <div class="top-blk"></div>
@@ -59,7 +59,7 @@ $this->title = 'SV-Mebel';
                 <div class="other-title">
                     <div class="other-text">посмотрите другие проекты</div>
                 </div>
-                <div class="w-layout-grid next-grid"><a id="w-node-d22bb759ecb3-239b9120" href="/fsk.html" class="next-cases w-inline-block"><img src="images/5d53dba301f72a9458ff0713_D0A4D0A1D09A402x402x.png" width="575" srcset="images/5d53dba301f72a9458ff0713_D0A4D0A1D09A402x402x-p-500.png 500w, images/5d53dba301f72a9458ff0713_D0A4D0A1D09A402x402x-p-800.png 800w, images/5d53dba301f72a9458ff0713_D0A4D0A1D09A402x402x-p-1080.png 1080w, images/5d53dba301f72a9458ff0713_D0A4D0A1D09A402x402x.png 1150w" sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, (max-width: 1306px) 88vw, 1150px" alt="" class="cases-cover-img"></a><a id="w-node-d22bb759ecb5-239b9120" href="/be-happy.html" class="next-cases w-inline-block"><img src="images/5d53e0052c90f6c536203cbd_D091D0B820D0A5D18DD0BFD0BFD0B8402x.png" width="575" srcset="images/5d53e0052c90f6c536203cbd_D091D0B820D0A5D18DD0BFD0BFD0B8402x-p-500.png 500w, images/5d53e0052c90f6c536203cbd_D091D0B820D0A5D18DD0BFD0BFD0B8402x-p-800.png 800w, images/5d53e0052c90f6c536203cbd_D091D0B820D0A5D18DD0BFD0BFD0B8402x-p-1080.png 1080w, images/5d53e0052c90f6c536203cbd_D091D0B820D0A5D18DD0BFD0BFD0B8402x.png 1150w" sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, (max-width: 1306px) 88vw, 1150px" alt="" class="cases-cover-img"></a></div>
+                <div class="w-layout-grid next-grid"><a id="w-node-d22bb759ecb3-239b9120" href="<?= Url::to(['site/fsk'])?>" class="next-cases w-inline-block"><img src="images/5d53dba301f72a9458ff0713_D0A4D0A1D09A402x402x.png" width="575" srcset="images/5d53dba301f72a9458ff0713_D0A4D0A1D09A402x402x-p-500.png 500w, images/5d53dba301f72a9458ff0713_D0A4D0A1D09A402x402x-p-800.png 800w, images/5d53dba301f72a9458ff0713_D0A4D0A1D09A402x402x-p-1080.png 1080w, images/5d53dba301f72a9458ff0713_D0A4D0A1D09A402x402x.png 1150w" sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, (max-width: 1306px) 88vw, 1150px" alt="" class="cases-cover-img"></a><a id="w-node-d22bb759ecb5-239b9120" href="<?= Url::to(['site/behappy'])?>" class="next-cases w-inline-block"><img src="images/5d53e0052c90f6c536203cbd_D091D0B820D0A5D18DD0BFD0BFD0B8402x.png" width="575" srcset="images/5d53e0052c90f6c536203cbd_D091D0B820D0A5D18DD0BFD0BFD0B8402x-p-500.png 500w, images/5d53e0052c90f6c536203cbd_D091D0B820D0A5D18DD0BFD0BFD0B8402x-p-800.png 800w, images/5d53e0052c90f6c536203cbd_D091D0B820D0A5D18DD0BFD0BFD0B8402x-p-1080.png 1080w, images/5d53e0052c90f6c536203cbd_D091D0B820D0A5D18DD0BFD0BFD0B8402x.png 1150w" sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, (max-width: 1306px) 88vw, 1150px" alt="" class="cases-cover-img"></a></div>
             </div>
         </div>
     </div>

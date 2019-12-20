@@ -1,8 +1,8 @@
 <?php
 
-$this->title = 'TRC-Volgodonsk'
+$this->title = 'TRC-Volgodonsk';
 
-?>
+use yii\helpers\Url; ?>
 
 <div class="section-cases">
     <div class="top-blk"></div>
@@ -88,7 +88,7 @@ $this->title = 'TRC-Volgodonsk'
                 <div class="other-title">
                     <div class="other-text">посмотрите другие проекты</div>
                 </div>
-                <div class="w-layout-grid next-grid"><a id="w-node-73ae6fa8a6f5-0c9b9119" href="/polimer.html" class="next-cases w-inline-block"><img src="images/5d53e00901f72a7b68ff1ad0_D09FD0BED0BBD0B8D0BCD0B5D180D18B402x.png" width="575" srcset="images/5d53e00901f72a7b68ff1ad0_D09FD0BED0BBD0B8D0BCD0B5D180D18B402x-p-500.png 500w, images/5d53e00901f72a7b68ff1ad0_D09FD0BED0BBD0B8D0BCD0B5D180D18B402x-p-800.png 800w, images/5d53e00901f72a7b68ff1ad0_D09FD0BED0BBD0B8D0BCD0B5D180D18B402x-p-1080.png 1080w, images/5d53e00901f72a7b68ff1ad0_D09FD0BED0BBD0B8D0BCD0B5D180D18B402x.png 1150w" sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, (max-width: 1306px) 88vw, 1150px" alt="" class="cases-cover-img"></a><a id="w-node-73ae6fa8a6f7-0c9b9119" href="/avtowestway.html" class="next-cases w-inline-block"><img src="images/5d53e0042c90f6c265203cbb_Avtowestway402x.png" width="575" srcset="images/5d53e0042c90f6c265203cbb_Avtowestway402x-p-500.png 500w, images/5d53e0042c90f6c265203cbb_Avtowestway402x-p-800.png 800w, images/5d53e0042c90f6c265203cbb_Avtowestway402x-p-1080.png 1080w, images/5d53e0042c90f6c265203cbb_Avtowestway402x.png 1150w" sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, (max-width: 1306px) 88vw, 1150px" alt="" class="cases-cover-img"></a></div>
+                <div class="w-layout-grid next-grid"><a id="w-node-73ae6fa8a6f5-0c9b9119" href="<?= Url::to(['site/polimer'])?>" class="next-cases w-inline-block"><img src="images/5d53e00901f72a7b68ff1ad0_D09FD0BED0BBD0B8D0BCD0B5D180D18B402x.png" width="575" srcset="images/5d53e00901f72a7b68ff1ad0_D09FD0BED0BBD0B8D0BCD0B5D180D18B402x-p-500.png 500w, images/5d53e00901f72a7b68ff1ad0_D09FD0BED0BBD0B8D0BCD0B5D180D18B402x-p-800.png 800w, images/5d53e00901f72a7b68ff1ad0_D09FD0BED0BBD0B8D0BCD0B5D180D18B402x-p-1080.png 1080w, images/5d53e00901f72a7b68ff1ad0_D09FD0BED0BBD0B8D0BCD0B5D180D18B402x.png 1150w" sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, (max-width: 1306px) 88vw, 1150px" alt="" class="cases-cover-img"></a><a id="w-node-73ae6fa8a6f7-0c9b9119" href="<?= Url::to(['site/avtowestway'])?>" class="next-cases w-inline-block"><img src="images/5d53e0042c90f6c265203cbb_Avtowestway402x.png" width="575" srcset="images/5d53e0042c90f6c265203cbb_Avtowestway402x-p-500.png 500w, images/5d53e0042c90f6c265203cbb_Avtowestway402x-p-800.png 800w, images/5d53e0042c90f6c265203cbb_Avtowestway402x-p-1080.png 1080w, images/5d53e0042c90f6c265203cbb_Avtowestway402x.png 1150w" sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, (max-width: 1306px) 88vw, 1150px" alt="" class="cases-cover-img"></a></div>
             </div>
         </div>
     </div>

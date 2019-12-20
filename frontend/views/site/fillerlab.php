@@ -1,7 +1,7 @@
 <?php
 $this->title = 'Filler-lab';
 
-?>
+use yii\helpers\Url; ?>
 
 <div class="section-cases">
     <div class="top-blk"></div>
@@ -58,7 +58,7 @@ $this->title = 'Filler-lab';
                 <div class="other-title">
                     <div class="other-text">посмотрите другие проекты</div>
                 </div>
-                <div class="w-layout-grid next-grid"><a id="w-node-1e38bb1f8990-969b911b" href="/iccentr.html" class="next-cases w-inline-block"><img src="images/5d53e00601f72a3a70ff1ac4_Iccentr402x.png" width="575" srcset="images/5d53e00601f72a3a70ff1ac4_Iccentr402x-p-500.png 500w, images/5d53e00601f72a3a70ff1ac4_Iccentr402x-p-800.png 800w, images/5d53e00601f72a3a70ff1ac4_Iccentr402x-p-1080.png 1080w, images/5d53e00601f72a3a70ff1ac4_Iccentr402x.png 1150w" sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, (max-width: 1306px) 88vw, 1150px" alt="" class="cases-cover-img"></a><a id="w-node-1e38bb1f8992-969b911b" href="/seostimul.html" class="next-cases w-inline-block"><img src="images/5d53e006865d64a09afa9697_Seo20Stimul402x.png" width="575" srcset="images/5d53e006865d64a09afa9697_Seo20Stimul402x-p-800.png 800w, images/5d53e006865d64a09afa9697_Seo20Stimul402x-p-1080.png 1080w, images/5d53e006865d64a09afa9697_Seo20Stimul402x.png 1150w" sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, (max-width: 1306px) 88vw, 1150px" alt="" class="cases-cover-img"></a></div>
+                <div class="w-layout-grid next-grid"><a id="w-node-1e38bb1f8990-969b911b" href="<?= Url::to(['site/iccentr'])?>" class="next-cases w-inline-block"><img src="images/5d53e00601f72a3a70ff1ac4_Iccentr402x.png" width="575" srcset="images/5d53e00601f72a3a70ff1ac4_Iccentr402x-p-500.png 500w, images/5d53e00601f72a3a70ff1ac4_Iccentr402x-p-800.png 800w, images/5d53e00601f72a3a70ff1ac4_Iccentr402x-p-1080.png 1080w, images/5d53e00601f72a3a70ff1ac4_Iccentr402x.png 1150w" sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, (max-width: 1306px) 88vw, 1150px" alt="" class="cases-cover-img"></a><a id="w-node-1e38bb1f8992-969b911b" href="<?= Url::to(['site/seostimul'])?>" class="next-cases w-inline-block"><img src="images/5d53e006865d64a09afa9697_Seo20Stimul402x.png" width="575" srcset="images/5d53e006865d64a09afa9697_Seo20Stimul402x-p-800.png 800w, images/5d53e006865d64a09afa9697_Seo20Stimul402x-p-1080.png 1080w, images/5d53e006865d64a09afa9697_Seo20Stimul402x.png 1150w" sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, (max-width: 1306px) 88vw, 1150px" alt="" class="cases-cover-img"></a></div>
             </div>
         </div>
     </div>

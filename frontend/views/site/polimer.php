@@ -2,7 +2,7 @@
 
 $this->title = 'Polimer';
 
-?>
+use yii\helpers\Url; ?>
 
 <div class="section-cases">
     <div class="top-blk"></div>
@@ -47,7 +47,7 @@ $this->title = 'Polimer';
                 <div class="other-title">
                     <div class="other-text">посмотрите другие проекты</div>
                 </div>
-                <div class="w-layout-grid next-grid"><a id="w-node-4194f4f3f6e0-949b911a" href="/avtowestway.html" class="next-cases w-inline-block"><img src="images/5d53e0042c90f6c265203cbb_Avtowestway402x.png" width="575" srcset="images/5d53e0042c90f6c265203cbb_Avtowestway402x-p-500.png 500w, images/5d53e0042c90f6c265203cbb_Avtowestway402x-p-800.png 800w, images/5d53e0042c90f6c265203cbb_Avtowestway402x-p-1080.png 1080w, images/5d53e0042c90f6c265203cbb_Avtowestway402x.png 1150w" sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, (max-width: 1306px) 88vw, 1150px" alt="" class="cases-cover-img"></a><a id="w-node-4194f4f3f6e2-949b911a" href="/filler-lab.html" class="next-cases w-inline-block"><img src="images/5d53e0061401318173cd79a6_filler-lab402x.png" width="575" srcset="images/5d53e0061401318173cd79a6_filler-lab402x-p-800.png 800w, images/5d53e0061401318173cd79a6_filler-lab402x-p-1080.png 1080w, images/5d53e0061401318173cd79a6_filler-lab402x.png 1150w" sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, (max-width: 1306px) 88vw, 1150px" alt="" class="cases-cover-img"></a></div>
+                <div class="w-layout-grid next-grid"><a id="w-node-4194f4f3f6e0-949b911a" href="<?= Url::to(['site/avtowestway'])?>" class="next-cases w-inline-block"><img src="images/5d53e0042c90f6c265203cbb_Avtowestway402x.png" width="575" srcset="images/5d53e0042c90f6c265203cbb_Avtowestway402x-p-500.png 500w, images/5d53e0042c90f6c265203cbb_Avtowestway402x-p-800.png 800w, images/5d53e0042c90f6c265203cbb_Avtowestway402x-p-1080.png 1080w, images/5d53e0042c90f6c265203cbb_Avtowestway402x.png 1150w" sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, (max-width: 1306px) 88vw, 1150px" alt="" class="cases-cover-img"></a><a id="w-node-4194f4f3f6e2-949b911a" href="<?= Url::to(['site/fillerlab'])?>" class="next-cases w-inline-block"><img src="images/5d53e0061401318173cd79a6_filler-lab402x.png" width="575" srcset="images/5d53e0061401318173cd79a6_filler-lab402x-p-800.png 800w, images/5d53e0061401318173cd79a6_filler-lab402x-p-1080.png 1080w, images/5d53e0061401318173cd79a6_filler-lab402x.png 1150w" sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, (max-width: 1306px) 88vw, 1150px" alt="" class="cases-cover-img"></a></div>
             </div>
         </div>
     </div>

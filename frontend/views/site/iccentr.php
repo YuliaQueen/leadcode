@@ -1,7 +1,7 @@
 <?php
 $this->title = 'ICcentr';
 
-?>
+use yii\helpers\Url; ?>
 
 <div class="section-cases">
     <div class="top-blk"></div>
@@ -61,7 +61,7 @@ $this->title = 'ICcentr';
             <div class="other-title">
                 <div class="other-text">посмотрите другие проекты</div>
             </div>
-            <div class="w-layout-grid next-grid"><a id="w-node-511b0fea5692-fa9b911f" href="/polimer.html" class="next-cases w-inline-block"><img src="images/5d53e00901f72a7b68ff1ad0_D09FD0BED0BBD0B8D0BCD0B5D180D18B402x.png" width="575" srcset="images/5d53e00901f72a7b68ff1ad0_D09FD0BED0BBD0B8D0BCD0B5D180D18B402x-p-500.png 500w, images/5d53e00901f72a7b68ff1ad0_D09FD0BED0BBD0B8D0BCD0B5D180D18B402x-p-800.png 800w, images/5d53e00901f72a7b68ff1ad0_D09FD0BED0BBD0B8D0BCD0B5D180D18B402x-p-1080.png 1080w, images/5d53e00901f72a7b68ff1ad0_D09FD0BED0BBD0B8D0BCD0B5D180D18B402x.png 1150w" sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, (max-width: 1306px) 88vw, 1150px" alt="" class="cases-cover-img"></a><a id="w-node-511b0fea5694-fa9b911f" href="/trc-volgodonsk.html" class="next-cases w-inline-block"><img src="images/5d8cd04d05586113f622ae88_trc2x.png" width="575" alt="" class="cases-cover-img"></a></div>
+            <div class="w-layout-grid next-grid"><a id="w-node-511b0fea5692-fa9b911f" href="<?= Url::to(['site/polimer'])?>" class="next-cases w-inline-block"><img src="images/5d53e00901f72a7b68ff1ad0_D09FD0BED0BBD0B8D0BCD0B5D180D18B402x.png" width="575" srcset="images/5d53e00901f72a7b68ff1ad0_D09FD0BED0BBD0B8D0BCD0B5D180D18B402x-p-500.png 500w, images/5d53e00901f72a7b68ff1ad0_D09FD0BED0BBD0B8D0BCD0B5D180D18B402x-p-800.png 800w, images/5d53e00901f72a7b68ff1ad0_D09FD0BED0BBD0B8D0BCD0B5D180D18B402x-p-1080.png 1080w, images/5d53e00901f72a7b68ff1ad0_D09FD0BED0BBD0B8D0BCD0B5D180D18B402x.png 1150w" sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, (max-width: 1306px) 88vw, 1150px" alt="" class="cases-cover-img"></a><a id="w-node-511b0fea5694-fa9b911f" href="<?= Url::to(['site/trc'])?>" class="next-cases w-inline-block"><img src="images/5d8cd04d05586113f622ae88_trc2x.png" width="575" alt="" class="cases-cover-img"></a></div>
         </div>
     </div>
 </div>

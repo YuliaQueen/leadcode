@@ -2,7 +2,7 @@
 
 $this->title = 'Seostimul';
 
-?>
+use yii\helpers\Url; ?>
 
 <div class="section-cases">
     <div class="top-blk"></div>
@@ -32,7 +32,7 @@ $this->title = 'Seostimul';
                 <div class="other-title">
                     <div class="other-text">посмотрите другие проекты</div>
                 </div>
-                <div class="w-layout-grid next-grid"><a id="w-node-55a25dda5cd8-6a9b911d" href="/iccentr.html" class="next-cases w-inline-block"><img src="images/5d53e00601f72a3a70ff1ac4_Iccentr402x.png" width="575" srcset="images/5d53e00601f72a3a70ff1ac4_Iccentr402x-p-500.png 500w, images/5d53e00601f72a3a70ff1ac4_Iccentr402x-p-800.png 800w, images/5d53e00601f72a3a70ff1ac4_Iccentr402x-p-1080.png 1080w, images/5d53e00601f72a3a70ff1ac4_Iccentr402x.png 1150w" sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, (max-width: 1306px) 88vw, 1150px" alt="" class="cases-cover-img"></a><a id="w-node-55a25dda5cda-6a9b911d" href="/sv-mebel.html" class="next-cases w-inline-block"><img src="images/5d53e00801f72a6351ff1acc_SV-mebel402x.png" width="575" srcset="images/5d53e00801f72a6351ff1acc_SV-mebel402x-p-500.png 500w, images/5d53e00801f72a6351ff1acc_SV-mebel402x-p-800.png 800w, images/5d53e00801f72a6351ff1acc_SV-mebel402x-p-1080.png 1080w, images/5d53e00801f72a6351ff1acc_SV-mebel402x.png 1150w" sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, (max-width: 1306px) 88vw, 1150px" alt="" class="cases-cover-img"></a></div>
+                <div class="w-layout-grid next-grid"><a id="w-node-55a25dda5cd8-6a9b911d" href="<?= Url::to(['site/iccentr'])?>" class="next-cases w-inline-block"><img src="images/5d53e00601f72a3a70ff1ac4_Iccentr402x.png" width="575" srcset="images/5d53e00601f72a3a70ff1ac4_Iccentr402x-p-500.png 500w, images/5d53e00601f72a3a70ff1ac4_Iccentr402x-p-800.png 800w, images/5d53e00601f72a3a70ff1ac4_Iccentr402x-p-1080.png 1080w, images/5d53e00601f72a3a70ff1ac4_Iccentr402x.png 1150w" sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, (max-width: 1306px) 88vw, 1150px" alt="" class="cases-cover-img"></a><a id="w-node-55a25dda5cda-6a9b911d" href="<?= Url::to(['site/svmebel'])?>" class="next-cases w-inline-block"><img src="images/5d53e00801f72a6351ff1acc_SV-mebel402x.png" width="575" srcset="images/5d53e00801f72a6351ff1acc_SV-mebel402x-p-500.png 500w, images/5d53e00801f72a6351ff1acc_SV-mebel402x-p-800.png 800w, images/5d53e00801f72a6351ff1acc_SV-mebel402x-p-1080.png 1080w, images/5d53e00801f72a6351ff1acc_SV-mebel402x.png 1150w" sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, (max-width: 1306px) 88vw, 1150px" alt="" class="cases-cover-img"></a></div>
             </div>
         </div>
     </div>

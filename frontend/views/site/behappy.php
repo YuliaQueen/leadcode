@@ -1,6 +1,7 @@
 <?php
 $this->title = 'Be-happy';
-?>
+
+use yii\helpers\Url; ?>
 
 <div class="section-cases">
     <div class="top-blk"></div>
@@ -36,7 +37,7 @@ $this->title = 'Be-happy';
                 <div class="other-title">
                     <div class="other-text">посмотрите другие проекты</div>
                 </div>
-                <div class="w-layout-grid next-grid"><a id="w-node-c1b1a635f911-639b9115" href="/trc-volgodonsk.html" class="next-cases w-inline-block"><img src="images/5d8cd04d05586113f622ae88_trc2x.png" width="575" alt="" class="cases-cover-img"></a><a id="w-node-c1b1a635f913-639b9115" href="/buro-teti-moti.html" class="next-cases w-inline-block"><img src="images/5d53de2f2c90f65eed2035a1_D0B1D18ED180D0BE_D182D0B5D182D0B8_D0BCD0BED182D0B8402x.png" width="575" srcset="images/5d53de2f2c90f65eed2035a1_D0B1D18ED180D0BE_D182D0B5D182D0B8_D0BCD0BED182D0B8402x-p-500.png 500w, images/5d53de2f2c90f65eed2035a1_D0B1D18ED180D0BE_D182D0B5D182D0B8_D0BCD0BED182D0B8402x-p-800.png 800w, images/5d53de2f2c90f65eed2035a1_D0B1D18ED180D0BE_D182D0B5D182D0B8_D0BCD0BED182D0B8402x-p-1080.png 1080w, images/5d53de2f2c90f65eed2035a1_D0B1D18ED180D0BE_D182D0B5D182D0B8_D0BCD0BED182D0B8402x.png 1150w" sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, (max-width: 1306px) 88vw, 1150px" alt="" class="cases-cover-img"></a></div>
+                <div class="w-layout-grid next-grid"><a id="w-node-c1b1a635f911-639b9115" href="<?= Url::to(['site/trc'])?>" class="next-cases w-inline-block"><img src="images/5d8cd04d05586113f622ae88_trc2x.png" width="575" alt="" class="cases-cover-img"></a><a id="w-node-c1b1a635f913-639b9115" href="<?= Url::to(['site/burotetimoti'])?>" class="next-cases w-inline-block"><img src="images/5d53de2f2c90f65eed2035a1_D0B1D18ED180D0BE_D182D0B5D182D0B8_D0BCD0BED182D0B8402x.png" width="575" srcset="images/5d53de2f2c90f65eed2035a1_D0B1D18ED180D0BE_D182D0B5D182D0B8_D0BCD0BED182D0B8402x-p-500.png 500w, images/5d53de2f2c90f65eed2035a1_D0B1D18ED180D0BE_D182D0B5D182D0B8_D0BCD0BED182D0B8402x-p-800.png 800w, images/5d53de2f2c90f65eed2035a1_D0B1D18ED180D0BE_D182D0B5D182D0B8_D0BCD0BED182D0B8402x-p-1080.png 1080w, images/5d53de2f2c90f65eed2035a1_D0B1D18ED180D0BE_D182D0B5D182D0B8_D0BCD0BED182D0B8402x.png 1150w" sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, (max-width: 1306px) 88vw, 1150px" alt="" class="cases-cover-img"></a></div>
             </div>
         </div>
     </div>
