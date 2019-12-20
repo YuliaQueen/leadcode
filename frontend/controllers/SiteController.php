@@ -103,5 +103,25 @@ class SiteController extends Controller
         return $this->render('burotetimoti');
     }
 
+    public function actionCases()
+    {
+        return $this->render('cases');
+    }
+
+    public function actionContacts()
+    {
+        return $this->render('contacts');
+    }
+
+    public function actionCovenant()
+    {
+        return $this->render('covenant');
+    }
+
+    public function actionFillerlab()
+    {
+        return $this->render('fillerlab');
+    }
+
 
 }
