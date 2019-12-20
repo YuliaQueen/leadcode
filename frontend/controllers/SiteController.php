@@ -98,5 +98,10 @@ class SiteController extends Controller
         return$this->render('behappy');
     }
 
+    public function actionBurotetimoti()
+    {
+        return $this->render('burotetimoti');
+    }
+
 
 }
