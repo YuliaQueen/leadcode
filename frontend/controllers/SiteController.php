@@ -123,5 +123,15 @@ class SiteController extends Controller
         return $this->render('fillerlab');
     }
 
+    public function actionFsk()
+    {
+        return $this->render('fsk');
+    }
+
+    public function actionIccentr()
+    {
+        return $this->render('iccentr');
+    }
+
 
 }
