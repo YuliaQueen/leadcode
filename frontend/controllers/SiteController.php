@@ -133,5 +133,39 @@ class SiteController extends Controller
         return $this->render('iccentr');
     }
 
+    public function actionLogos()
+    {
+        return $this->render('logos');
+    }
+
+    public function actionOkonika()
+    {
+        return $this->render('okonika');
+    }
+
+    public function actionPolicy()
+    {
+        return $this->render('policy');
+    }
+
+    public function actionPolimer()
+    {
+        return $this->render('polimer');
+    }
+
+    public function actionSeostimul()
+    {
+        return $this->render('seostimul');
+    }
+
+    public function actionSvmebel()
+    {
+        return $this->render('svmebel');
+    }
+
+    public function actionTrc()
+    {
+        return $this->render('trc');
+    }
 
 }
