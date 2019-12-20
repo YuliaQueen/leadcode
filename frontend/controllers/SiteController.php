@@ -88,5 +88,10 @@ class SiteController extends Controller
         return $this->render('about');
     }
 
+    public function actionAvtowestway()
+    {
+        return $this->render('avtowestway');
+    }
+
 
 }
