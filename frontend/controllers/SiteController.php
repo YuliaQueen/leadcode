@@ -1,6 +1,7 @@
 <?php
 namespace frontend\controllers;
 
+use common\models\User;
 use frontend\models\ResendVerificationEmailForm;
 use frontend\models\VerifyEmailForm;
 use Yii;
@@ -20,6 +21,18 @@ use frontend\models\ContactForm;
  */
 class SiteController extends Controller
 {
+
+    public function actionCreateAdmin()
+    {
+       $user = new User();
+       $user->username = 'admin';
+       $user->email = 'admin@leadcode.loc';
+       $user->status = User::STATUS_ACTIVE;
+       $user->setPassword('admin');
+       $user->generateAuthKey();
+       $user->save();
+       echo 'Пользователь добавлен';
+    }
 
 
     /**
