@@ -17,6 +17,7 @@ AppAsset::register($this);
     <base href="/"/>
     <meta charset="<?= Yii::$app->charset; ?>>">
     <title><?= $this->title; ?></title>
+    <?php $this->head(); ?>
     <link rel="stylesheet" type="text/css" href="css/style.css?ver=1569939155">
     <meta content="Мы специализируемся на разработке сайтов, проектировании потребительских и корпоративных брендов."
           name="description">

@@ -20,52 +20,25 @@ use frontend\models\ContactForm;
  */
 class SiteController extends Controller
 {
-    /**
-     * {@inheritdoc}
-     */
-    public function behaviors()
-    {
-        return [
-            'access' => [
-                'class' => AccessControl::className(),
-                'only' => ['logout', 'signup'],
-                'rules' => [
-                    [
-                        'actions' => ['signup'],
-                        'allow' => true,
-                        'roles' => ['?'],
-                    ],
-                    [
-                        'actions' => ['logout'],
-                        'allow' => true,
-                        'roles' => ['@'],
-                    ],
-                ],
-            ],
-            'verbs' => [
-                'class' => VerbFilter::className(),
-                'actions' => [
-                    'logout' => ['post'],
-                ],
-            ],
-        ];
-    }
+
 
     /**
-     * {@inheritdoc}
+     * Displays 404-page
+     *
+     * @return mixed
+     *
      */
-    public function actions()
+    public function actionError()
     {
-        return [
-            'error' => [
-                'class' => 'yii\web\ErrorAction',
-            ],
-            'captcha' => [
-                'class' => 'yii\captcha\CaptchaAction',
-                'fixedVerifyCode' => YII_ENV_TEST ? 'testme' : null,
-            ],
-        ];
+        $this->layout = 'error';
+        $error = Yii::$app->response->statusCode;
+
+        if ($error === 404) {
+
+            return $this->render('404');
+        }
     }
+
 
     /**
      * Displays homepage.
@@ -76,6 +49,8 @@ class SiteController extends Controller
     {
         return $this->render('index');
     }
+
+
 
     public function actionServices()
     {
