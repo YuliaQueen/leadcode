@@ -7,7 +7,13 @@
 
 use backend\models\UserSearch;
 use yii\data\ActiveDataProvider;
-use yii\web\View; ?>
+use yii\web\View;
+use yii\helpers\Html;
+
+$this->title = 'Список пользователей';
+?>
+
+<?= Html::a('Создать пользователя', ['create'], ['class' => 'btn btn-success']) ?>
 
 <?=  yii\grid\GridView::widget([
     'filterModel' => $searchModel,
