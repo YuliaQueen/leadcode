@@ -22,6 +22,7 @@ use yii\web\IdentityInterface;
  * @property integer $created_at
  * @property integer $updated_at
  * @property string $password write-only password
+ * @property boolean $is_admin
  */
 class User extends ActiveRecord implements IdentityInterface
 {
@@ -56,6 +57,7 @@ class User extends ActiveRecord implements IdentityInterface
     public function rules()
     {
         return [
+            [['is_admin'], 'boolean'],
             [['username', 'email'], 'required'],
             [['username', 'email', 'password'], 'string'],
             ['status', 'default', 'value' => self::STATUS_INACTIVE],
@@ -226,5 +228,25 @@ class User extends ActiveRecord implements IdentityInterface
     public function removePasswordResetToken()
     {
         $this->password_reset_token = null;
+    }
+
+    public static function statuses()
+    {
+        return [
+            static::STATUS_ACTIVE => 'Активный',
+            static::STATUS_INACTIVE => 'Неактивный',
+            static::STATUS_DELETED => 'Удаленный',
+        ];
+    }
+
+    public function attributeLabels()
+    {
+        return [
+            'id' => 'ID',
+            'username' => 'Имя пользователя',
+            'email' => 'E-mail',
+            'status' => 'Статус',
+            'is_admin' => 'Администратор',
+        ];
     }
 }
