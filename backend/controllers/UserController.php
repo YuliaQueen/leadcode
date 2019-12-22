@@ -1,6 +1,8 @@
 <?php
 namespace backend\controllers;
 
+use andrewdanilov\adminpanel\controllers\BackendController;
+use backend\models\UserSearch;
 use Yii;
 use yii\web\Response;
 use andrewdanilov\adminpanel\LoginForm;
@@ -44,6 +46,13 @@ class UserController extends BackendController
 
 	public function actionIndex()
     {
+        $searchModel = new UserSearch();
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+
+        return $this->render('index', [
+            'searchModel' => $searchModel,
+            'dataProvider' => $dataProvider,
+        ]);
 
     }
 }

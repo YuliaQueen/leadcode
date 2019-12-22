@@ -1,6 +1,6 @@
 <?php
 
-namespace backand\models;
+namespace backend\models;
 
 
 use common\models\User;
@@ -11,7 +11,7 @@ class UserSearch extends User
     public function rules()
     {
         return [
-            [['username, email, status'], 'safe']
+            [['id', 'username', 'email', 'status'], 'safe']
         ];
     }
 
